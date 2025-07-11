@@ -1,0 +1,54 @@
+# macOS system files
+.DS_Store
+
+# MySQL Workbench files
+*.bak
+*.log
+*.tmp
+
+
+# MySQL socket or PID files
+*.sock
+*.pid
+
+# Sensitive credentials
+.env
+*.env
+venv/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Output or reports (optional)
+output/
+reports/
+
+# Node modules (optional)
+node_modules/
+
+
+
+# Tableau files
+*.twb
+*.twbx
+*.tds
+*.tdsx
+
+# MySQL Workbench model diagrams
+*.mwb
+*.png
+
+# Mac archive metadata
+__MACOSX/
+
+/db-capstone-project/venv/
